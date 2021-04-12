@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinImage</string>
+    <string name="register"><u>Register here!</u></string>
+
+</resources>

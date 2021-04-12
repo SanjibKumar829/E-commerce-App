@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/food4"
+        tools:context=".SignupActivity">
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up !"
+            android:textColor="#ffff"
+            android:paddingLeft="@dimen/_30sdp"
+            android:textSize="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Email"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="#ffff"
+            android:paddingLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"/>
+    <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/borderlogin"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:hint="Enter your email"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:paddingLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_30sdp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Password"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="#ffff"
+            android:paddingLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"/>
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/borderlogin"
+            android:textColor="#ffff"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:hint="Enter your Password"
+            android:textColorHint="#ffff"
+            android:paddingLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_30sdp"/>
+    <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:text="Register!"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:background="#0FECDE"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"/>
+
+    <TextView
+            android:id="@+id/movelogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:textStyle="bold"
+            android:text="Already have account? Login here"
+            android:textSize="@dimen/_18sdp"/>
+
+
+
+</LinearLayout>

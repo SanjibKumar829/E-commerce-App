@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1084929457461",
+    "firebase_url": "https://fetchimage-ae0c4.firebaseio.com",
+    "project_id": "fetchimage-ae0c4",
+    "storage_bucket": "fetchimage-ae0c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084929457461:android:d9e258189f0700c8",
+        "android_client_info": {
+          "package_name": "com.sanjib.kotlinimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084929457461-nvtcveq04q5r3u6mf4ag9i3icsjkmoqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanjib.kotlinimage",
+            "certificate_hash": "8aec5d6ff4059a53d2ecc132cb149aad1d41135f"
+          }
+        },
+        {
+          "client_id": "1084929457461-roktbar0vkn79pgi138iphir6s9vg96r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF9R37RjoU30ST8qV3luig7td3zqc-9CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084929457461-roktbar0vkn79pgi138iphir6s9vg96r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
